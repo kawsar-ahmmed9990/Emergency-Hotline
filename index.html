@@ -23,14 +23,18 @@
   </head>
   <body class="max-w-[100%]">
     <!-- navbar start here -->
-    <nav class="flex justify-between items-center mt-6 mx-6 bg-[#ffffff] pb-4">
-      <div class="flex gap-3">
-        <img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="" />
-        <h1 class="text-[#006747] text-[16px] font-bold">
+    <nav
+      class="flex flex-col lg:flex-row justify-between items-center mt-6 mx-6 bg-[#ffffff] pb-4"
+    >
+      <div class="flex flex-col gap-3 lg:flex-row">
+        <img class="mx-auto w-[50px] h-[50px]" src="./assets/logo.png" alt="" />
+        <h1
+          class="text-[#006747] text-center mb-3 text-[16px] font-bold lg:text-left"
+        >
           Emergency <br />Service
         </h1>
       </div>
-      <div class="flex gap-8">
+      <div class="flex flex-col gap-8 lg:flex-row">
         <h1 class="flex gap-3 bg-[#41ff6b1a] px-6 py-2 rounded-[50px]">
           <span>0</span
           ><img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="" />
@@ -47,7 +51,7 @@
       </div>
     </nav>
 
-    <main class="bg-[#f5fff6] pb-20 pt-4">
+    <main class="bg-[#f5fff6] pb-20 pt-1">
       <!-- banner section start here -->
       <section
         class="mt-4 bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] text-center p-10 mx-2"
@@ -67,9 +71,13 @@
       </section>
 
       <!-- card secton start here -->
-      <section class="card-parent bg-[#f5fff6] mx-8 mt-10 flex gap-10">
+      <section
+        class="card-parent bg-[#f5fff6] mx-8 mt-10 flex flex-col lg:flex-row gap-10"
+      >
         <!-- left part start here -->
-        <div class="left-part grid grid-cols-3 gap-3 min-w-[950px]">
+        <div
+          class="left-part grid grid-cols-1 gap-3 lg:grid-cols-3 lg:min-w-[950px]"
+        >
           <!-- card one -->
           <div class="bg-white p-4 rounded-lg shadow-xl">
             <div class="flex justify-between items-center">
